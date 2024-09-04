@@ -130,7 +130,8 @@ function App() {
   <>
   <Navbar/>
     <div className='mx-3 md:container md:mx-auto my-5 rounded-xl p-5  min-h-[80vh] md:w-[75%] bg-violet-200'>
-
+    <Analytics />
+    <SpeedInsights />
       <div className='' >
         <h1 className='text-center text-2xl font-bold'>iTask - Manage your todos at one place </h1>
         <h1 className='text-lg font-bold ms-1 '>Add a Todos</h1>
