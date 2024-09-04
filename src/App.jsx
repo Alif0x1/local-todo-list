@@ -133,7 +133,7 @@ function App() {
         <h1 className='text-center text-2xl font-bold'>iTask - Manage your todos at one place </h1>
         <h1 className='text-lg font-bold ms-1 '>Add a Todos</h1>
         <div className='flex justify-between items-center flex-col gap-4 '>
-          <input onChange={handleChange} checked={todo} type='text' className=' w-11/12 px-4  p-1 rounded-md text-black mx-1 ' placeholder='Add your todo here'/>
+          <input onChange={handleChange} value={todo} type='text' className=' w-11/12 px-4  p-1 rounded-md text-black mx-1 ' placeholder='Add your todo here'/>
           <button onClick={handleAdd} className='bg-violet-800 hover:bg-violet-950 py-1 w-[89%]  border-dashed px-24 hover:opacity-90 text-sm font-bold rounded-lg'>save</button>
         </div>
         <span className="mit flex ms-2 me-2 my-3 justify-between">
