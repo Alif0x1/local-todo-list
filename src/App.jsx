@@ -7,7 +7,9 @@ import Navbar from './components/Navbar.jsx'
 import { v4 as uuidv4 } from 'uuid';
 import { FiEdit } from "react-icons/fi";
 import { MdDelete } from "react-icons/md";
-import { FaRegSave } from "react-icons/fa";
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/react"
+
 
 
 
