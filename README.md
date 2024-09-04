@@ -2,7 +2,6 @@
 
 A simple and elegant Todo List application built with React. This project demonstrates the core concepts of React, including state management, component lifecycle, and event handling.
 
-![Todo List](./public/todo-list.png)
 
 ## Features
 
